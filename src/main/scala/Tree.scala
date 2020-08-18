@@ -15,7 +15,7 @@ println(" "*(treeHeight-1)+"*")
   for (i <- 2 to treeHeight)
 
   {
-    println(" "*(treeHeight-i)+"^"*((i*2-1)))
+    println(" "*(treeHeight-i)+"^"*(i*2-1))
   }
 
   println()
