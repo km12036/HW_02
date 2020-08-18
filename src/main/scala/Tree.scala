@@ -10,9 +10,12 @@ object Tree extends App {
   else if (args(0).toInt<3) {treeHeight}
   else {treeHeight=args(0).toInt}
 
-  for (i <- 1 to treeHeight)
+println(" "*(treeHeight-1)+"*")
+
+  for (i <- 2 to treeHeight)
+
   {
-    println(" "*(treeHeight-i)+"*"*(i*2-1))
+    println(" "*(treeHeight-i)+"^"*((i*2-1)))
   }
 
   println()
